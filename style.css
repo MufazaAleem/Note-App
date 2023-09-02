@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.note-list {
+    text-align: left;
+}
+
+.note {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+button.delete-button {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button.edit-button {
+    background-color: #009933;
+    color: #fff;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
